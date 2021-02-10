@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.table-cell {
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.box {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+.red {
+  background: #ff7b7b;
+  width : 300px;
+}
+
+.blue {
+  background: #7b86ff;
+}
+
+.yellow {
+  background: #fff27b;
+  width : 300px;
+}
+
+.green {
+  background: #7bff91;
+}
+
+.pink {
+  background: #ff7be2;
+  width : 400px
+}
+
+.orange {
+  background: #ffc67b;
+  width: 400px;
+}
+
+.lightblue {
+  background: #7bf2ff;
+}
+
+.table-cell:first-child {
+  margin-top: 0px;
+}
